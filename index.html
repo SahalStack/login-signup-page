@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Login Form -->
+    <div class="container">
+      <div class="curved-shaped"></div>
+      <div class="curved-shaped2"></div>
+
+      <div class="form-box Login">
+        <h2 class="animation">Login</h2>
+        <form onsubmit="return validatePassword()" action="#">
+          <div class="input-box animation">
+            <input type="text" required class="username" />
+            <label for="">Username</label>
+            <i class="bx bxs-user"></i>
+          </div>
+          <div class="input-box animation">
+            <input type="password" required class="password" />
+            <label for="">Password</label>
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+          <div class="input-box">
+            <button class="btn" type="submit">Login</button>
+          </div>
+          <div class="regi-link">
+            <p>
+              Don't have an acoount ?
+              <a href="./signup.html" class="SignupLink">Sign up</a>
+            </p>
+          </div>
+        </form>
+      </div>
+
+      <div class="info-content Login">
+        <h2>WELCOME BACK!</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          dignissimos ea perferendis aperiam sint.
+        </p>
+      </div>
+
+      <!-- ----------------------------------------------------- -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
